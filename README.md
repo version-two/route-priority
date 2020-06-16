@@ -6,18 +6,15 @@
 [![License](https://poser.pugx.org/bexvibi/route-priority/license)](https://packagist.org/packages/bexvibi/route-priority)
 
 ### Installation
-
-1) Add `bexvibi/route-priority` to `composer.json`.
-
-    "bexvibi/route-priority": "dev-master"
-    
-2)Run `composer update` to pull down the latest version of the package.
-
-3)Now open up `app/config/app.php` and add the service provider to your `providers` array.
+You can install the package via composer:
+``` bash
+composer require bexvibi/route-priority
+```
+Now open up `app/config/app.php` and add the service provider to your `providers` array.
 
 	bexvibi\RoutePriority\RoutePriorityServiceProvider::class,
 
-4)Add the trait to `App\Http\Kernel`
+Add the trait to `App\Http\Kernel`
 
 	use \bexvibi\RoutePriority\RouterTrait;
 
