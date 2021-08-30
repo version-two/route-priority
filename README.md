@@ -1,22 +1,22 @@
 ## Package to add priority to Laravel 7 routes
 
-[![Latest Stable Version](https://poser.pugx.org/bexvibi/route-priority/v/stable)](https://packagist.org/packages/bexvibi/route-priority) 
-[![Total Downloads](https://poser.pugx.org/bexvibi/route-priority/downloads)](https://packagist.org/packages/bexvibi/route-priority) 
-[![Latest Unstable Version](https://poser.pugx.org/bexvibi/route-priority/v/unstable)](https://packagist.org/packages/bexvibi/route-priority) 
-[![License](https://poser.pugx.org/bexvibi/route-priority/license)](https://packagist.org/packages/bexvibi/route-priority)
+[![Latest Stable Version](https://poser.pugx.org/vildanbina/route-priority/v/stable)](https://packagist.org/packages/vildanbina/route-priority) 
+[![Total Downloads](https://poser.pugx.org/vildanbina/route-priority/downloads)](https://packagist.org/packages/vildanbina/route-priority) 
+[![Latest Unstable Version](https://poser.pugx.org/vildanbina/route-priority/v/unstable)](https://packagist.org/packages/vildanbina/route-priority) 
+[![License](https://poser.pugx.org/vildanbina/route-priority/license)](https://packagist.org/packages/vildanbina/route-priority)
 
 ### Installation
 You can install the package via composer:
 ``` bash
-composer require bexvibi/route-priority
+composer require vildanbina/route-priority
 ```
 Now open up `app/config/app.php` and add the service provider to your `providers` array.
 
-	bexvibi\RoutePriority\RoutePriorityServiceProvider::class,
+	vildanbina\RoutePriority\RoutePriorityServiceProvider::class,
 
 Add the trait to `App\Http\Kernel`
 
-	use \bexvibi\RoutePriority\RouterTrait;
+	use \vildanbina\RoutePriority\RouterTrait;
 
 ### Usage
 

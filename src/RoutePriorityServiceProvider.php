@@ -1,4 +1,4 @@
-<?php namespace bexvibi\RoutePriority;
+<?php namespace vildanbina\RoutePriority;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -20,7 +20,7 @@ class RoutePriorityServiceProvider extends ServiceProvider
     {
         $this->app->singleton('router', function($app)
         {
-            return new \bexvibi\RoutePriority\Router($app['events'], $app);
+            return new \vildanbina\RoutePriority\Router($app['events'], $app);
         });
     }
 

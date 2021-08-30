@@ -1,4 +1,4 @@
-<?php namespace bexvibi\RoutePriority;
+<?php namespace vildanbina\RoutePriority;
 
 use Illuminate\Routing\RouteCollection as IlluminateRouteCollection;
 

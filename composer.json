@@ -1,11 +1,11 @@
 {
-    "name": "bexvibi/route-priority",
+    "name": "vildanbina/route-priority",
     "description": "Package to add priority to Laravel 7 routes",
     "keywords": ["laravel", "route", "priority"],
     "license": "MIT",
     "authors": [
         {
-            "name": "bexvibi",
+            "name": "vildanbina",
             "email": "vildanbina@gmail.com"
         }
     ],
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "bexvibi\\RoutePriority\\": "src/"
+            "vildanbina\\RoutePriority\\": "src/"
         }
     },
     "minimum-stability": "stable"

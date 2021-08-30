@@ -1,4 +1,4 @@
-<?php namespace bexvibi\RoutePriority;
+<?php namespace vildanbina\RoutePriority;
 
 use Illuminate\Container\Container;
 use Illuminate\Events\Dispatcher;
